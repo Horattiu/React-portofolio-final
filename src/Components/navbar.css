@@ -1,0 +1,50 @@
+.links {
+  display: flex;
+  gap: 2rem;
+  align-self: center;
+  margin-right: 20rem;
+}
+.links a {
+  text-decoration: none;
+}
+
+.navigation {
+  /* margin-top: 1rem; */
+  display: flex;
+  /* margin-right: 8rem; */
+  align-self: center;
+  justify-content: space-between;
+  background-color: rgb(243, 244, 245);
+  width: 100%;
+  height: 8rem;
+}
+
+.logo {
+  align-self: center;
+}
+.navigation .links a:hover {
+  color: #22e3e5;
+}
+
+h1 {
+  margin-left: 20rem;
+  font-size: 3rem;
+}
+li {
+  display: flex;
+  font-size: 1.8rem;
+}
+
+/* -------MOBILE NAVIGATION------- */
+
+.mobile-navigation .links {
+  flex-direction: column;
+}
+
+.mobile-navigation {
+  display: none;
+}
+
+.mobile-navigation .links a:hover {
+  color: rgb(136, 188, 201);
+}

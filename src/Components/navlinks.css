@@ -1,0 +1,20 @@
+.links {
+  display: flex;
+  gap: 2rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+.navigation {
+  margin-right: 10rem;
+  align-self: center;
+}
+h1 {
+  margin-left: 8rem;
+}
+li {
+  display: flex;
+}

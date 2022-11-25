@@ -1,0 +1,29 @@
+.bg-projects {
+  width: 100%;
+  margin: 0 auto;
+}
+.bg-projects p {
+  text-align: center;
+  font-weight: 600;
+  font-size: 4.4rem;
+  padding-top: 8rem;
+  margin-bottom: 10rem;
+}
+.projects-container {
+  justify-items: center;
+  row-gap: 4rem;
+  column-gap: 2rem;
+  max-width: 1320px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 8rem;
+}
+
+.project-box {
+  width: 42rem;
+  height: 28rem;
+  background-color: rgb(237, 246, 247);
+  border-radius: 10px;
+  margin: 0 0.8rem 0 0.8rem;
+  /* margin: 0 2rem; */
+}
