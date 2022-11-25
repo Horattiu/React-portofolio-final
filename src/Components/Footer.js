@@ -8,6 +8,7 @@ function Footer() {
         <p className="quote">Some inspirational quote</p>
         <p className="quote">-somebody</p>
         <hr />
+
         <p className="copyright">
           copyright @2022 by Oltean Horatiu.personal portofolio
         </p>

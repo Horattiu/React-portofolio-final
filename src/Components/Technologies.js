@@ -13,15 +13,15 @@ function Technologies() {
     <div className="bg-box">
       <div className="position">
         <div className="tech-title-ill">
-          <div className="submarine-container">
+          <div className="tech-container">
+            <h2>Technologies i use</h2>
+            <h3>The path i chose</h3>
+          </div>
+          <div className="walkingdog-container">
             <img
               className="walkingdog"
               src={require("./img/pathill.png")}
             ></img>
-          </div>
-          <div className="tech-container">
-            <h2>Technologies i use</h2>
-            <h3>The path i chose</h3>
           </div>
         </div>
 

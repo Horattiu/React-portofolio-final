@@ -11,19 +11,22 @@
 }
 .projects-container {
   justify-items: center;
+
   row-gap: 4rem;
-  column-gap: 2rem;
-  max-width: 1320px;
+  /* column-gap: 2rem; */
+  max-width: 126rem;
+  /* max-width: 1320px; */
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 8rem;
 }
 
 .project-box {
-  width: 42rem;
-  height: 28rem;
+  width: 38rem;
+  height: 26rem;
   background-color: rgb(237, 246, 247);
   border-radius: 10px;
-  margin: 0 0.8rem 0 0.8rem;
+
+  /* margin: 0 0.8rem 0 0.8rem; */
   /* margin: 0 2rem; */
 }

@@ -3,7 +3,7 @@ import "./navlinks.css";
 const NavLinks = () => {
   return (
     <>
-      <ul className="links">
+      <ul className="links ">
         <li>
           <a href="/">about me</a>
         </li>
