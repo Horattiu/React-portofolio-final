@@ -2,12 +2,13 @@
   width: 100%;
   margin: 0 auto;
 }
-.bg-projects p {
+.bg-projects .projects-title {
   text-align: center;
   font-weight: 600;
   font-size: 4.4rem;
   padding-top: 8rem;
-  margin-bottom: 10rem;
+  padding-bottom: 8rem;
+  /* margin-bottom: 10rem; */
 }
 .projects-container {
   justify-items: center;
@@ -24,9 +25,74 @@
 .project-box {
   width: 38rem;
   height: 26rem;
-  background-color: rgb(237, 246, 247);
+  background-color: rgb(199, 229, 241);
   border-radius: 10px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
 
-  /* margin: 0 0.8rem 0 0.8rem; */
-  /* margin: 0 2rem; */
+.project-box:hover {
+  /* background-color: rgb(231, 231, 231); */
+}
+.overlay-content {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  /* background-color: rgba(255, 255, 255, 0.795); */
+  background-color: rgba(0, 0, 0, 0.308);
+  backdrop-filter: blur(10px);
+  justify-content: space-between;
+  border-radius: 10px;
+  opacity: 0;
+}
+.overlay-content:hover {
+  opacity: 1;
+  transition: opacity 0.1s ease-in-out;
+}
+
+.overlay-content .content-text {
+  font-size: 2rem;
+  padding: 0;
+  text-align: initial;
+  padding: 3rem 2rem 2rem 2rem;
+  margin: 0;
+  color: white;
+}
+.overlay-content button {
+  font-size: 2rem;
+  padding: 1.2rem 4rem 1.2rem 4rem;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  /* background-color: #22e3e5; */
+}
+.overlay-content button:hover {
+  background-color: #22e3e5;
+}
+.blank {
+  align-self: center;
+  padding: 2rem;
+}
+.btn-2 {
+  border: none;
+}
+
+.site-title {
+  position: relative;
+  font-size: 4rem;
+  font-weight: 600;
+  text-align: center;
+}
+.maomor {
+  position: absolute;
+  width: 100%;
+}
+
+.ss-project {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* position: absolute; */
 }

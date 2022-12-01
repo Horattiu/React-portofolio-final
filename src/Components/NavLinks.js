@@ -5,13 +5,13 @@ const NavLinks = () => {
     <>
       <ul className="links ">
         <li>
-          <a href="/">about me</a>
+          <a href="#link-about">about me</a>
         </li>
         <li>
-          <a href="/">tech</a>
+          <a href="#link-tech">tech</a>
         </li>
         <li>
-          <a href="/">projects</a>
+          <a href="#link-projects">projects</a>
         </li>
       </ul>
     </>

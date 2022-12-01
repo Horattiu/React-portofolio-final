@@ -15,7 +15,7 @@
     max-width: 110rem;
   }
   .box-container .box {
-    width: 41rem;
+    width: 37rem;
   }
   .bg-projects .projects-title {
     padding-top: 12rem;
@@ -60,10 +60,12 @@
     z-index: 99;
     backdrop-filter: blur(10px);
   }
+
   .mobile-navigation {
     display: flex;
     align-items: center;
     height: 8rem;
+    background-color: rgb(243, 244, 245);
   }
   .mobile-navigation .logo h1 {
     margin-left: 10rem;
@@ -80,9 +82,9 @@
     font-size: 3rem;
   }
 
-  .cover-container .text-container {
+  /* .cover-container .text-container {
     margin-left: -10rem;
-  }
+  } */
 
   /* ----------about section------------ */
 
@@ -134,6 +136,10 @@
     /* 8px / 16px = 0.5 = 50% */
     font-size: 50%;
   }
+
+  .logo img {
+    margin-left: 10rem;
+  }
   .about-container .details {
     margin-left: 10rem;
   }
@@ -163,8 +169,8 @@
     z-index: 999; */
   }
 
-  .cover-container .text-container {
-    margin-left: -18rem;
+  .logo img {
+    margin-left: 8rem;
   }
 
   .box-container.grid {
@@ -185,7 +191,7 @@
     width: auto;
   }
   .position .box-container.grid {
-    gap: 6rem;
+    /* gap: 6rem; */
   }
 
   .bg-box .tech-title-ill {
@@ -197,7 +203,7 @@
   } */
 
   .bg-box .walkingdog {
-    margin-left: 8rem;
+    /* margin-left: 8rem; */
   }
 
   .projects-container.grid {
@@ -207,12 +213,18 @@
   .bg-projects .projects-title {
     padding-top: 8rem;
   }
+  .bg-projects .project-box {
+    width: 38rem;
+  }
 }
 
 /**************************/
 /* BELOW 544px (Phones) */
 /**************************/
 @media (max-width: 40em) {
+  .logo img {
+    margin-left: 3.2rem;
+  }
   .mobile-navigation .logo h1 {
     margin-left: 4rem;
   }
@@ -223,12 +235,21 @@
     cursor: pointer;
   }
 
-  .cover-container .text-container {
+  /* .cover-container .text-container {
     margin-left: -26rem;
-  }
+  } */
   .cover-container .text-container h2 {
     font-size: 3.4rem;
-    line-height: 3.2rem;
+    line-height: 3.7rem;
+  }
+  .text-container {
+    /* top: 25rem; */
+    /* left: 10%; */
+    width: 80%;
+  }
+  .cover-container {
+    display: flex;
+    justify-content: center;
   }
 
   .about-container .details {
@@ -245,10 +266,6 @@
 
   .bg-box .tech-title-ill {
     padding-bottom: 8rem;
-  }
-  .bg-box .walkingdog {
-    /* padding-top: 0rem; */
-    margin-left: 10rem;
   }
 
   .bg-box .position {
@@ -268,7 +285,8 @@
     text-align: center;
     margin-left: 0;
   }
+
   .bg-projects .project-box {
-    /* width: 44rem; */
+    width: 34rem;
   }
 }

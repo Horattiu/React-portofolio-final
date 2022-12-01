@@ -10,7 +10,7 @@ import { BsGithub } from "react-icons/bs";
 
 function Technologies() {
   return (
-    <div className="bg-box">
+    <div className="bg-box" id="link-tech">
       <div className="position">
         <div className="tech-title-ill">
           <div className="tech-container">
@@ -89,7 +89,15 @@ function Technologies() {
               systems and their importance.
             </h5>
           </div>
-          <div className="box"></div>
+          <div className="box">
+            <h4>inca nush aicea</h4>
+            <hr className="hrr" />
+
+            <h5>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe,
+              accusamus?
+            </h5>
+          </div>
         </div>
       </div>
     </div>

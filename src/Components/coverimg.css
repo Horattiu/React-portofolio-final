@@ -18,7 +18,11 @@
 
 .text-container {
   top: 25rem;
-  left: 32rem;
+  /* left: 17%; */
   position: absolute;
+  /* line-height: 5.4rem; */
   line-height: 5.4rem;
+}
+.text-container h2:nth-child(1) {
+  color: #22e3e5;
 }
