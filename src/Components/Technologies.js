@@ -25,7 +25,10 @@ function Technologies() {
           </div>
         </div>
 
-        <div className="box-container grid" data-aos="fade-up">
+        <div className="box-container grid" data-aos="fade-up"
+          data-aos-offset="400"
+        >
+
           <div className="box">
             <h4>
               Javascript

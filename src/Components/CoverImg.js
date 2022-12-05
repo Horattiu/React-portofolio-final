@@ -5,8 +5,9 @@ const CoverImg = () => {
   return (
     <div className="cover-container">
       <img src={require("./img/cover.jpg")} className="cover-img" />
-      <div className="text-container">
-        <h2 className="cover-text"> hi,</h2>
+      <div className="text-container"
+      >
+        <h2 data-aos="zoom-in" className="cover-text"> hi,</h2>
         <h2 className="cover-text"> I'm Oltean Horatiu</h2>
         <h2 className="cover-text">aspiring web developer</h2>
         <h2 className="cover-text"> based in Romania</h2>

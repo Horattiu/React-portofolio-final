@@ -2,6 +2,7 @@
   width: 100%;
   margin: 0 auto;
 }
+
 .bg-projects .projects-title {
   text-align: center;
   font-weight: 600;
@@ -10,6 +11,7 @@
   padding-bottom: 8rem;
   /* margin-bottom: 10rem; */
 }
+
 .projects-container {
   justify-items: center;
 
@@ -35,6 +37,7 @@
 .project-box:hover {
   /* background-color: rgb(231, 231, 231); */
 }
+
 .overlay-content {
   position: absolute;
   display: flex;
@@ -48,6 +51,7 @@
   border-radius: 10px;
   opacity: 0;
 }
+
 .overlay-content:hover {
   opacity: 1;
   transition: opacity 0.1s ease-in-out;
@@ -61,6 +65,7 @@
   margin: 0;
   color: white;
 }
+
 .overlay-content button {
   font-size: 2rem;
   padding: 1.2rem 4rem 1.2rem 4rem;
@@ -68,13 +73,16 @@
   border-radius: 10px;
   /* background-color: #22e3e5; */
 }
+
 .overlay-content button:hover {
   background-color: #22e3e5;
 }
+
 .blank {
   align-self: center;
   padding: 2rem;
 }
+
 .btn-2 {
   border: none;
 }
@@ -85,6 +93,7 @@
   font-weight: 600;
   text-align: center;
 }
+
 .maomor {
   position: absolute;
   width: 100%;

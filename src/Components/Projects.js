@@ -9,12 +9,16 @@ function Projects() {
   return (
     <div className="bg-projects" id="link-projects">
       <p className="projects-title">Projects</p>
-      <div className="projects-container grid" data-aos="fade-up">
+      <div className="projects-container grid"
+        data-aos="fade-up"
+        data-aos-offset="400"
+      >
+
 
         <div className="project-box">
           <img
             className="ss-project"
-            src={require("./img/project-ss.JPG")}
+            src={require("./img/fabricad-thumbnail.jpg")}
           ></img>
           <div className="overlay-content">
             <p className="content-text">
