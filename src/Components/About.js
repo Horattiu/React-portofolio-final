@@ -4,7 +4,7 @@ import "./about.css";
 function About() {
   return (
     <div>
-      <div className="about-container" id="link-about">
+      <div className="about-container" data-aos="fade-up" id="link-about">
         <div className="positioning-container">
           <div className="portrait-container">
             <img className="portrait" src={require("./img/test1.jpg")}></img>

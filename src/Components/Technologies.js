@@ -17,7 +17,7 @@ function Technologies() {
             <h2>Technologies i use</h2>
             <h3>The path i chose</h3>
           </div>
-          <div className="walkingdog-container">
+          <div className="walkingdog-container" >
             <img
               className="walkingdog"
               src={require("./img/pathill.png")}
@@ -25,7 +25,7 @@ function Technologies() {
           </div>
         </div>
 
-        <div className="box-container grid">
+        <div className="box-container grid" data-aos="fade-up">
           <div className="box">
             <h4>
               Javascript
@@ -90,7 +90,7 @@ function Technologies() {
             </h5>
           </div>
           <div className="box">
-            <h4>inca nush aicea</h4>
+            <h4>tailwind css </h4>
             <hr className="hrr" />
 
             <h5>
