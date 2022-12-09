@@ -27,7 +27,7 @@ const MobileNavigation = () => {
           <img className="logo-img" src={require("./img/logoo7.png")}></img>
         </div>
         {open ? closeIcon : hamburgerIcon}
-        {open && <NavLinks />}
+        {open && <NavLinks setOpen={setOpen} />}
       </nav>
     </>
   );

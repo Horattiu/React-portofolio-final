@@ -1,16 +1,17 @@
 import "./navlinks.css";
+import { useState } from "react";
 
-const NavLinks = () => {
+const NavLinks = ({ setOpen }) => {
   return (
     <>
       <ul className="links ">
-        <li>
+        <li onClick={() => setOpen(false)}>
           <a href="#link-about">about me</a>
         </li>
-        <li>
+        <li onClick={() => setOpen(false)}>
           <a href="#link-tech">tech</a>
         </li>
-        <li>
+        <li onClick={() => setOpen(false)}>
           <a href="#link-projects">projects</a>
         </li>
       </ul>

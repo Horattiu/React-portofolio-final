@@ -9,12 +9,11 @@ function Projects() {
   return (
     <div className="bg-projects" id="link-projects">
       <p className="projects-title">Projects</p>
-      <div className="projects-container grid"
+      <div
+        className="projects-container grid"
         data-aos="fade-up"
-        data-aos-offset="400"
+        data-aos-offset="100"
       >
-
-
         <div className="project-box">
           <img
             className="ss-project"
@@ -39,16 +38,13 @@ function Projects() {
         <div className="project-box">
           <img
             className="ss-project"
-            src={require("./img/bankist-thumbnail.jpg")}
+            src={require("./img/expense-tracker-thumbnail.jpg")}
           ></img>
           <div className="overlay-content">
-            <p className="content-text">
-              first freelance project i did for a client / furniture company
-              using react
-            </p>
+            <p className="content-text">react expense tracker</p>
             <a
               className="blank"
-              href="https://banking-app-final.netlify.app/"
+              href="https://react-expense-tracker-final.netlify.app/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -63,10 +59,7 @@ function Projects() {
             src={require("./img/image-gallery-thumbnail.jpg")}
           ></img>
           <div className="overlay-content">
-            <p className="content-text">
-              first freelance project i did for a client / furniture company
-              using react
-            </p>
+            <p className="content-text">react image-gallery</p>
             <a
               className="blank"
               href="https://elaborate-cascaron-24c525.netlify.app"
@@ -84,10 +77,7 @@ function Projects() {
             src={require("./img/omnifood-thumbnail.jpg")}
           ></img>
           <div className="overlay-content">
-            <p className="content-text">
-              first freelance project i did for a client / furniture company
-              using react
-            </p>
+            <p className="content-text">html / css project</p>
             <a
               className="blank"
               href="https://omnifood-web-final.netlify.app/"
@@ -100,7 +90,21 @@ function Projects() {
         </div>
 
         <div className="project-box">
-
+          <img
+            className="ss-project"
+            src={require("./img/live-image-filter-thumbnail.jpg")}
+          ></img>
+          <div className="overlay-content">
+            <p className="content-text">live image-filter</p>
+            <a
+              className="blank"
+              href="https://live-image-filter-final.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="btn-2">View live demo</button>
+            </a>
+          </div>
         </div>
 
         <div className="project-box"></div>
