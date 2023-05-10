@@ -1,12 +1,13 @@
-import React from "react";
-import "./technologies.css";
-import "./about.css";
-import { FaReact } from "react-icons/fa";
-import { IoLogoJavascript } from "react-icons/io";
-import { ImHtmlFive } from "react-icons/im";
-import { IoLogoCss3 } from "react-icons/io";
-import { DiGit } from "react-icons/di";
-import { BsGithub } from "react-icons/bs";
+import React from 'react';
+import './technologies.css';
+import './about.css';
+import { FaReact } from 'react-icons/fa';
+import { IoLogoJavascript } from 'react-icons/io';
+import { ImHtmlFive } from 'react-icons/im';
+import { IoLogoCss3 } from 'react-icons/io';
+import { DiGit } from 'react-icons/di';
+import { BsGithub } from 'react-icons/bs';
+import { FaBeer } from 'react-icons/fa';
 
 function Technologies() {
   return (
@@ -20,7 +21,7 @@ function Technologies() {
           <div className="walkingdog-container">
             <img
               className="walkingdog"
-              src={require("./img/pathill.png")}
+              src={require('./img/pathill.png')}
             ></img>
           </div>
         </div>
@@ -53,7 +54,7 @@ function Technologies() {
 
             <h5>
               Currently undergoing an in-depth guide on the React framework
-              library. This website is my first project
+              library. This website is my first project.
             </h5>
           </div>
           <div className="box">
@@ -65,7 +66,7 @@ function Technologies() {
 
             <h5>
               In-depth dive through 3 different courses of learning what CSS3 is
-              and how to apply it in real world projects
+              and how to apply it in real world projects.
             </h5>
           </div>
           <div className="box">
@@ -94,12 +95,12 @@ function Technologies() {
             </h5>
           </div>
           <div className="box">
-            <h4>tailwind css </h4>
+            <h4>TypeScript</h4>
             <hr className="hrr" />
 
             <h5>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe,
-              accusamus?
+              I'm currently learning TypeScript to enhance my technical
+              abilities.
             </h5>
           </div>
         </div>
