@@ -1,13 +1,13 @@
-import React from 'react';
-import './technologies.css';
-import './about.css';
-import { FaReact } from 'react-icons/fa';
-import { IoLogoJavascript } from 'react-icons/io';
-import { ImHtmlFive } from 'react-icons/im';
-import { IoLogoCss3 } from 'react-icons/io';
-import { DiGit } from 'react-icons/di';
-import { BsGithub } from 'react-icons/bs';
-import { FaBeer } from 'react-icons/fa';
+import React from "react";
+import "./technologies.css";
+import "./about.css";
+import { FaReact } from "react-icons/fa";
+import { IoLogoJavascript } from "react-icons/io";
+import { ImHtmlFive } from "react-icons/im";
+import { IoLogoCss3 } from "react-icons/io";
+import { DiGit } from "react-icons/di";
+import { BsGithub } from "react-icons/bs";
+import { FaBeer } from "react-icons/fa";
 
 function Technologies() {
   return (
@@ -21,7 +21,7 @@ function Technologies() {
           <div className="walkingdog-container">
             <img
               className="walkingdog"
-              src={require('./img/pathill.png')}
+              src={require("./img/pathill.png")}
             ></img>
           </div>
         </div>
@@ -53,8 +53,8 @@ function Technologies() {
             <hr className="hrr" />
 
             <h5>
-              Currently undergoing an in-depth guide on the React framework
-              library. This website is my first project.
+              Currently diving deep into the React framework, expanding my
+              knowledge and skills.
             </h5>
           </div>
           <div className="box">
@@ -101,6 +101,19 @@ function Technologies() {
             <h5>
               I'm currently learning TypeScript to enhance my technical
               abilities.
+            </h5>
+          </div>
+          <div className="box">
+            <h4>
+              Node.JS
+              <ImHtmlFive className="icon" />
+            </h4>
+            <hr className="hrr" />
+
+            <h5>
+              Currently expanding my knowledge of Node.js and Express, actively
+              seeking opportunities to apply my growing expertise in real-world
+              projects.
             </h5>
           </div>
         </div>
