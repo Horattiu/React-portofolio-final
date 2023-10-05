@@ -1,0 +1,25 @@
+/* coverimg.css */
+.cover-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f2f2f2; /* Background color of the cover container */
+  position: relative;
+}
+
+.text-container {
+  flex: 1;
+  text-align: center;
+  z-index: 2; /* Ensure the text is above the loading text */
+}
+
+.loading-text {
+  font-size: 4rem;
+  color: #333;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1; /* Ensure the loading text is above the background */
+}

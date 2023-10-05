@@ -1,9 +1,9 @@
-import React from 'react';
-import './projects.css';
+import React from "react";
+import "./projects.css";
 
 function Projects() {
   const openInNewTab = (url) => {
-    window.open(url, '_blank', 'noopener,noreferrer');
+    window.open(url, "_blank", "noopener,noreferrer");
   };
 
   return (
@@ -15,18 +15,15 @@ function Projects() {
         data-aos-offset="100"
       >
         <div className="project-box">
-          <img
-            className="ss-project"
-            src={require('./img/fabricad-thumbnail.jpg')}
-          ></img>
+          <img className="ss-project" src={require("./img/portog.png")}></img>
           <div className="overlay-content">
             <p className="content-text">
-              first freelance project i did for a client / furniture company
-              using react
+              freelance project i did for a client / furniture company using
+              react
             </p>
             <a
               className="blank"
-              href="https://react-fabricad-final-v2.netlify.app/"
+              href="https://fabricadserv.netlify.app/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -38,7 +35,7 @@ function Projects() {
         <div className="project-box">
           <img
             className="ss-project"
-            src={require('./img/expense-tracker-thumbnail.jpg')}
+            src={require("./img/expense-tracker-thumbnail.jpg")}
           ></img>
           <div className="overlay-content">
             <p className="content-text">react expense tracker</p>
@@ -56,7 +53,7 @@ function Projects() {
         <div className="project-box">
           <img
             className="ss-project"
-            src={require('./img/image-gallery-thumbnail.jpg')}
+            src={require("./img/image-gallery-thumbnail.jpg")}
           ></img>
           <div className="overlay-content">
             <p className="content-text">react image-gallery</p>
@@ -74,16 +71,15 @@ function Projects() {
         <div className="project-box">
           <img
             className="ss-project ss-project2"
-            src={require('./img/kakucs.JPG')}
+            src={require("./img/blog.JPG")}
           ></img>
           <div className="overlay-content">
             <p className="content-text">
-              The app was built using React and the design was provided by the
-              client.
+              blog application developed using Node.js and MongoDB
             </p>
             <a
               className="blank"
-              href="https://kakucsdavid.com/"
+              href="https://express-nodejs-ll9x.onrender.com/blogs"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -95,7 +91,7 @@ function Projects() {
         <div className="project-box">
           <img
             className="ss-project"
-            src={require('./img/live-image-filter-thumbnail.jpg')}
+            src={require("./img/live-image-filter-thumbnail.jpg")}
           ></img>
           <div className="overlay-content">
             <p className="content-text">live image-filter</p>
@@ -109,7 +105,7 @@ function Projects() {
             </a>
           </div>
         </div>
-
+        {/* 
         <div className="project-box">
           <img className="ss-project" src={require('./img/chat2.JPG')}></img>
           <div className="overlay-content">
@@ -125,7 +121,7 @@ function Projects() {
               <button className="btn-2">View live demo</button>
             </a>
           </div>
-        </div>
+        </div> */}
 
         {/* <div className="project-box">
           <img className="ss-project" src={require('./img/chatapp.JPG')}></img>
